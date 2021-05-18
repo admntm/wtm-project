@@ -37,8 +37,8 @@
   line-height: 1.5;
 }
 .row {
-    margin-top: 7rem !important;
-    margin-bottom: 7rem !important;
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
 }
 .page-footer {
   background-color: #222;
@@ -78,4 +78,22 @@ a.nostyle:hover {
 }
 .warm {
     font-size: 30px;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
