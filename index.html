@@ -280,10 +280,24 @@ Foglalkozunk vízszintes és függőleges bálázógépek, hulladékprések, apr
                             <img src="images/ballisztikusszeparator(2)small.jpg" class="d-block w-100 carouselimg" alt="Ballisztikus szeparátor (2)" >
                             </a>
                         </div>
-                        <div class="carousel-item">
-                            <a target="_blank" href="images/Bali_Stadler.mp4">
+                      <script>
+                      
+                      window.addEventListener('load', () => {
+                        video_container = document.querySelector('#video-player')
+                        if (video_container) {
+                          video_container.addEventListener('click', add_video)
+                        }
+                      })
+                        
+                      add_video = (e)  => {
+                        video_el = document.createElement('video')
+                        video_el.src = 'images/Bali_Stadler.mp4'
+                        video_el.setAttribute('control', true)
+                        e.target.innerHTML = video_el;
+                      } 
+                      </script>
+                        <div id="video-player" class="carousel-item">
                             <img src="images/ballisztikusszeparator(3)small.jpg.png" class="d-block w-100 carouselimg" alt="Ballisztikus szeparátor (3)" >
-                            </a>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carousel-five" role="button" data-slide="prev">
