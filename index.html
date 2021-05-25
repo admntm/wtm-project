@@ -280,24 +280,10 @@ Foglalkozunk vízszintes és függőleges bálázógépek, hulladékprések, apr
                             <img src="images/ballisztikusszeparator(2)small.jpg" class="d-block w-100 carouselimg" alt="Ballisztikus szeparátor (2)" >
                             </a>
                         </div>
-                      <script>
-                      
-                      window.addEventListener('load', () => {
-                        video_container = document.querySelector('#video-player')
-                        if (video_container) {
-                          video_container.addEventListener('click', add_video)
-                        }
-                      })
-                        
-                      add_video = (e)  => {
-                        video_el = document.createElement('video')
-                        video_el.src = 'images/Bali_Stadler.mp4'
-                        video_el.setAttribute('control', true)
-                        e.target.innerHTML = video_el;
-                      } 
-                      </script>
-                        <div id="video-player" class="carousel-item">
+                        <div class="carousel-item">
+                            <a target="_blank" href="images/Bali_Stadler.mp4">
                             <img src="images/ballisztikusszeparator(3)small.jpg.png" class="d-block w-100 carouselimg" alt="Ballisztikus szeparátor (3)" >
+                            </a>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carousel-five" role="button" data-slide="prev">
@@ -493,17 +479,36 @@ Foglalkozunk vízszintes és függőleges bálázógépek, hulladékprések, apr
                     <li>A rezgésdiagnosztikai módszerekkel lehetséges a forgó berendezések károsodásának kimutatását már nagyon korai szakaszban. Így a meghibásodás határán működő alkatrészek kicserélhetők a tervezett leállások alkalmával, a nem tervezett leállások elkerülhetők. Cégünk a legkorszerűbb rezgésdiagnosztikai műszerekkel végzett mérések segítségével vállalja a berendezések és technológia sorok állapotfelügyeletét és a lehetséges meghibásodások előre jelzését.</li>
                 </div>
             </div>
-            <div class="btn-group dropright" style="display: block; margin-bottom: 1em;">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-align: left;">
-                Speciális tevékenységek
-                </button>
-                <div class="dropdown-menu p-4 text-muted" style="margin-left: 1em">
-                    <li>keményfém kopóréteg felhegesztés, gyökfaragás, tengelyvég helyszíni javítása. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo</li>
-                </div>
-            </div>
         </div>
         <div class="col-md-5 order-md-2">
-            <img class="img-fluid rounded-circle " src="husmann.jpg" alt="Generic placeholder image">
+            <img class="img-fluid rounded-circle " src="images/work.jpeg" alt="Generic placeholder image">
+        </div>
+    </div>
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-md-12">
+            <h2 class="featurette-heading"><span class="text-muted">Speciális tevékenységek.</span></h2>
+            <p class="lead">A szokásos karbantartási munkákon túl vállaljuk a keményfém kopóréteg javítását, pótlását, az aprítógépek hegesztett késtartóinak gyökfaragásos eltávolítását és újrahegesztését, a sérült tengelyvégek helyszíni, kiszerelés nélküli javítását tengelyvég esztergálással.</p>
+        </div>
+    </div>
+    <div class="row featurette">
+        <div class="col-md-4">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="images/Gy%C3%B6kfarag%C3%A1s(4).mp4" allowfullscreen></iframe>
+            </div>
+            <p class="video">Gyökfaragás</p>
+        </div>
+        <div class="col-md-4">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="images/Tengelyv%C3%A9g_eszterga(1)%20(1).mp4" allowfullscreen></iframe>
+            </div>
+            <p class="video">Tengelyvég eszterga</p>
+        </div>
+        <div class="col-md-4">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="images/Tengelyv%C3%A9g_eszterga(2).mp4" allowfullscreen></iframe>
+            </div>
+            <p class="video">Tengelyvég eszterga</p>
         </div>
     </div>
     <hr class="featurette-divider">
