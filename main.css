@@ -93,10 +93,14 @@ div.gallery img {
   height: auto;
 }
 
-div.desc {
+div.desc, .video {
   padding: 15px;
   text-align: center;
 }
 i {
     margin-right: 0.5em;
+}
+.video {
+  padding: 0;
+  text-align: center;
 }
