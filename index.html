@@ -48,7 +48,8 @@
         </div>
     </header>
     <div class="container">
-     <div class="row featurette ">
+    <div class="mbhide">
+     <div class="row featurette">
         <div class="col-md-7" id="Rólunk" style="margin-top: 20px;">
             <h2 class="featurette-heading">Bemutatkozás. <span class="text-muted">Cégtörténet.</span></h2>
             <p class="lead">Cégünk 2002 óta foglakozik a szilárd hulladékok kezelésének és feldolgozásának gépi eszközeivel.
@@ -62,6 +63,42 @@
         <p class="lead">Munkatársaink szakképzettsége lehetővé teszi az elektromos, hidraulikus és mechanikus javítások, felújítások elvégzését, így az adott berendezés teljes körű szervizelését meg tudjuk oldani. A szokásos karbantartási-javítási feladatok elvégzése mellett a legmodernebb állapotfelügyeleti mérések is el tudjuk végezni. A meghibásodások előre jelzésével a váratlan események által okozott leállások száma és időtartama lényegesen lecsökkenthető, ami a javítási és az állásidő okozta költségek drasztikus csökkenésében jelenik meg.
             Rendelkezünk a sérült tengelyek helyszíni – kiszerelés nélküli – javításához szükséges technológiával, ami szintén a költségek és az állásidő minimálisra redukálását segíti elő.</p>
         </div>
+    </div>
+    </div>
+    <div class="bighide">
+        <div class="row featurette">
+        <div class="col-md-7" id="Rólunk" style="margin-top: 20px;">
+            <h2 class="featurette-heading">Bemutatkozás. <span class="text-muted">Cégtörténet.</span></h2>
+            <p class="lead">Cégünk 2002 óta foglakozik a szilárd hulladékok kezelésének és feldolgozásának gépi eszközeivel.
+                Tevékenységi körünk kiterjed a mechanikai hulladék kezelés szinte valamennyi részterületére, a gyűjtéstől, a szelektáláson át az aprításig<span id="dots">...</span><span id="more">. Foglalkozunk vízszintes és függőleges bálázógépek, hulladékprések, aprítógépek, ballisztikus szeparátorok, légszeparátorok, optikai válogatók, sík- és dobrosták, szállítószalagok, mágnes- és örvényáramú szeparátorok, komplett feldolgozó technológiák telepítésével, karbantartásával, javításával és állapotfelügyeletével.
+            Munkatársaink szakképzettsége lehetővé teszi az elektromos, hidraulikus és mechanikus javítások, felújítások elvégzését, így az adott berendezés teljes körű szervizelését meg tudjuk oldani. A szokásos karbantartási-javítási feladatok elvégzése mellett a legmodernebb állapotfelügyeleti mérések is el tudjuk végezni. A meghibásodások előre jelzésével a váratlan események által okozott leállások száma és időtartama lényegesen lecsökkenthető, ami a javítási és az állásidő okozta költségek drasztikus csökkenésében jelenik meg.
+            Rendelkezünk a sérült tengelyek helyszíni – kiszerelés nélküli – javításához szükséges technológiával, ami szintén a költségek és az állásidő minimálisra redukálását segíti elő.</span></p>
+            <button onclick="myFunction()" id="myBtn">Több</button>
+            <script>
+                function myFunction() {
+                  var dots = document.getElementById("dots");
+                  var moreText = document.getElementById("more");
+                  var btnText = document.getElementById("myBtn");
+
+                  if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Több"; 
+                    moreText.style.display = "none";
+                  } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Kevesebb"; 
+                    moreText.style.display = "inline";
+                  }
+                }
+            </script>
+        </div>
+        <div class="col-md-5" style="margin-top: 20px">
+            <img class="img-fluid rounded-circle" src="husmann.jpg" alt="Generic placeholder image">
+        </div>
+        
+    </div>
+        
+    
     </div>
     <hr class="featurette-divider">        
     <div class="row featurette">

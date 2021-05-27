@@ -204,6 +204,10 @@ a {
 a.nodec {
     color: black !important;
 }
+.bighide {
+    display: none;
+}
+
 
 @media only screen and (max-width: 600px){
     p.lead {
@@ -232,6 +236,23 @@ a.nodec {
     }
     i.fa-map-marker-alt {
         display: none;
+    }
+    .mbhide {
+    display: none;
+    }
+    .bighide {
+        display: block;
+    }
+    #more {display: none;}
+    #myBtn {
+        background-color: white;
+        border: none;
+        float: right;
+        font-size: 0.8em;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+        color: #212529 !important;
+        margin-top: -1em;
+        text-decoration: underline;
     }
     
 }
