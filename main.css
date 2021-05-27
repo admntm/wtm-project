@@ -226,6 +226,12 @@ a.nodec {
     margin-top: 2%;
     opacity: 0;
         margin: auto;
-    margin-right: 16.8%;
+        margin-right: 16.8%;}
+    .dropright {
+        text-align: center;
+    }
+    i.fa-map-marker-alt {
+        display: none;
+    }
     
 }
