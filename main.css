@@ -138,7 +138,7 @@ i {
     
 }
 .lightbox:target img {
-    border: solid 7px white;
+    border: solid 1px white;
     opacity: 1;
     webkit-transition: opacity 0.6s;
     transition: opacity 0.6s;
